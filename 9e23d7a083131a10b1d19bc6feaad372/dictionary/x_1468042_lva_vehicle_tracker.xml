@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="14c1f36883931a10b1d19bc6feaad3ba" label="Vehicle Tracker" max_length="40" name="x_1468042_lva_vehicle_tracker" type="collection">
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Request Number" mandatory="true" max_length="32" name="request_number" reference="sc_req_item" type="reference"/>
+        <element choice="1" label="Tracker Status" mandatory="true" max_length="40" name="tracker_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="1" value="closed"/>
+                <element inactive_on_update="false" label="Open" sequence="2" value="open"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="0" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Delivery Information" max_length="1000" name="delivery_information" type="string"/>
+        <element label="Vehicle" mandatory="true" max_length="32" name="vehicle" reference="x_1468042_lva_loaner_vehicle_catalog" type="reference"/>
+        <element label="Actual Return Date" max_length="255" name="actual_return_date" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Return Notes" max_length="1000" name="return_notes" type="string"/>
+        <element label="Date Requested" max_length="40" name="date_requested" type="glide_date"/>
+        <element choice="1" label="Return Vehicle Status" max_length="40" name="return_vehicle_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Returned in Good Condition" sequence="0" value="Returned in Good Condition"/>
+                <element inactive_on_update="false" label="Returned with Minor Issues" sequence="1" value="Returned with Minor Issues"/>
+                <element inactive_on_update="false" label="Returned with Major Issue" sequence="2" value="Returned with Major Issue"/>
+            </choice>
+        </element>
+        <element choice="1" label="Vehicle Status" mandatory="true" max_length="40" name="vehicle_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sent for Servicing" value="Sent for Servicing"/>
+                <element inactive_on_update="false" label="Returned to Warehouse" value="Returned to Warehouse"/>
+                <element inactive_on_update="false" label="Out on Field" value="Out on Field"/>
+                <element inactive_on_update="false" label="Decommissioned" value="Decommissioned"/>
+                <element inactive_on_update="false" label="Pending Release" value="Pending Release"/>
+                <element inactive_on_update="false" label="Returned for Inspection" value="Returned for Inspection"/>
+            </choice>
+        </element>
+        <element label="Additional Comments" max_length="1000" name="additional_comments" type="string"/>
+        <element label="Expected Return Date" max_length="40" name="expected_return_date" type="glide_date"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="request_number"/>
+        </index>
+        <index name="index4">
+            <element name="vehicle"/>
+        </index>
+    </element>
+</database>
