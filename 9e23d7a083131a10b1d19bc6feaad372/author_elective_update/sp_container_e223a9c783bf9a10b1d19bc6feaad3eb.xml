@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>visible-xs</class_name>
+        <container_class_name/>
+        <name>RFS Home Page - Container 2</name>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_page display_value="rfs_home_page">a623a9c783bf9a10b1d19bc6feaad34e</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-23 01:29:19</sys_created_on>
+        <sys_id>e223a9c783bf9a10b1d19bc6feaad3eb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>RFS Home Page - Container 2</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1468042_lva">9e23d7a083131a10b1d19bc6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">9e23d7a083131a10b1d19bc6feaad372</sys_scope>
+        <sys_update_name>sp_container_e223a9c783bf9a10b1d19bc6feaad3eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-23 02:40:43</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">9e23d7a083131a10b1d19bc6feaad372</application>
+        <file_path/>
+        <instance_id>5951bb13db79b55002d9172913961935</instance_id>
+        <instance_name>dev187353</instance_name>
+        <name>sp_container_e223a9c783bf9a10b1d19bc6feaad3eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>visible-xs</class_name><container_class_name/><name>RFS Home Page - Container 2</name><order>2</order><semantic_tag/><sp_page display_value="rfs_home_page">a623a9c783bf9a10b1d19bc6feaad34e</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-23 01:29:19</sys_created_on><sys_id>e223a9c783bf9a10b1d19bc6feaad3eb</sys_id><sys_mod_count>3</sys_mod_count><sys_name>RFS Home Page - Container 2</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1468042_lva">9e23d7a083131a10b1d19bc6feaad372</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">9e23d7a083131a10b1d19bc6feaad372</sys_scope><sys_update_name>sp_container_e223a9c783bf9a10b1d19bc6feaad3eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-23 02:40:43</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-352276187</payload_hash>
+        <record_name>RFS Home Page - Container 2</record_name>
+        <reverted_from/>
+        <source>db11304f83bb9a10b1d19bc6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-23 02:40:43</sys_created_on>
+        <sys_id>dc83b1cb83ff9a10b1d19bc6feaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19530adac8e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-23 02:40:43</sys_updated_on>
+        <type>Container</type>
+        <update_guid>5483b1cb93ff9a1007d2508301053a79</update_guid>
+        <update_guid_history>5483b1cb93ff9a1007d2508301053a79:-352276187,857371cb86ff9a104bae578340378e71:-1006814300,9b63210b39bf9a10b719bd21cf8dc86a:418927694,a623a9c7c4bf9a1043fbb5474f3559ec:2072139438</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="RFS Home Page - Container 2">5baba15383b31e10b1d19bc6feaad362</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-23 20:45:00</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>2d5077a39a09457898a6a9b08ac63240</sys_id>
+        <sys_metadata>e223a9c783bf9a10b1d19bc6feaad3eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RFS Home Page - Container 2</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1468042_lva">9e23d7a083131a10b1d19bc6feaad372</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">9e23d7a083131a10b1d19bc6feaad372</sys_scope>
+        <sys_scope_delete display_value="">08998be5b52442e0aab92bfb539ed2d9</sys_scope_delete>
+        <sys_update_name>sp_container_e223a9c783bf9a10b1d19bc6feaad3eb</sys_update_name>
+        <sys_update_version display_value="sp_container_e223a9c783bf9a10b1d19bc6feaad3eb">dc83b1cb83ff9a10b1d19bc6feaad379</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-23 20:45:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

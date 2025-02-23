@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">3e23e9c783bf9a10b1d19bc6feaad31f</sp_column>
+        <sp_widget display_value="Approvals">f37aa302cb70020000f8d856634c9cfc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-23 01:29:20</sys_created_on>
+        <sys_id>3e23e9c783bf9a10b1d19bc6feaad324</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1468042_lva">9e23d7a083131a10b1d19bc6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">9e23d7a083131a10b1d19bc6feaad372</sys_scope>
+        <sys_update_name>sp_instance_3e23e9c783bf9a10b1d19bc6feaad324</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-23 01:31:39</sys_updated_on>
+        <title>My Approvals</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3e23e9c783bf9a10b1d19bc6feaad324"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">9e23d7a083131a10b1d19bc6feaad372</application>
+        <file_path/>
+        <instance_id>5951bb13db79b55002d9172913961935</instance_id>
+        <instance_name>dev187353</instance_name>
+        <name>sp_instance_3e23e9c783bf9a10b1d19bc6feaad324</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;3e23e9c783bf9a10b1d19bc6feaad31f&lt;/sp_column&gt;&lt;sp_widget display_value="Approvals"&gt;f37aa302cb70020000f8d856634c9cfc&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-23 01:29:20&lt;/sys_created_on&gt;&lt;sys_id&gt;3e23e9c783bf9a10b1d19bc6feaad324&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Approvals&lt;/sys_name&gt;&lt;sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1468042_lva"&gt;9e23d7a083131a10b1d19bc6feaad372&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle Request and Inventory"&gt;9e23d7a083131a10b1d19bc6feaad372&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_3e23e9c783bf9a10b1d19bc6feaad324&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-23 01:31:39&lt;/sys_updated_on&gt;&lt;title&gt;My Approvals&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3e23e9c783bf9a10b1d19bc6feaad324"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1891318508</payload_hash>
+        <record_name>My Approvals</record_name>
+        <reverted_from/>
+        <source>db11304f83bb9a10b1d19bc6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-23 01:31:39</sys_created_on>
+        <sys_id>3cb3a50b83bf9a10b1d19bc6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195306e72e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-23 01:31:39</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>b0b3a50b34bf9a10a09e1b4cd3c1a4ed</update_guid>
+        <update_guid_history>b0b3a50b34bf9a10a09e1b4cd3c1a4ed:1891318508,b223e9c7ffbf9a1099080d000c952126:1280174955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Approvals">46042d0b83bf9a10b1d19bc6feaad36a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-23 01:33:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>050e3eac36a1432ab175fdddbbc01961</sys_id>
+        <sys_metadata>3e23e9c783bf9a10b1d19bc6feaad324</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1468042_lva">9e23d7a083131a10b1d19bc6feaad372</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">9e23d7a083131a10b1d19bc6feaad372</sys_scope>
+        <sys_scope_delete display_value="">08998be5b52442e0aab92bfb539ed2d9</sys_scope_delete>
+        <sys_update_name>sp_instance_3e23e9c783bf9a10b1d19bc6feaad324</sys_update_name>
+        <sys_update_version display_value="sp_instance_3e23e9c783bf9a10b1d19bc6feaad324">3cb3a50b83bf9a10b1d19bc6feaad3ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-23 01:33:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

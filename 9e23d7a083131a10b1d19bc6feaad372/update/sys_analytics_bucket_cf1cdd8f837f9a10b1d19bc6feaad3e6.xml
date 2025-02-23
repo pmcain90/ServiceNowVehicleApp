@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_analytics_bucket">
+    <sys_analytics_bucket action="INSERT_OR_UPDATE">
+        <analytics_channel display_value="web">6496ef61c7001010393d265c95c260b9</analytics_channel>
+        <application_name>Loaner Vehicle Portal</application_name>
+        <bucket_document_id>43ea594f837f9a10b1d19bc6feaad39f</bucket_document_id>
+        <bucket_metadata>{"HeartbeatInterval":"5000","MaxDataPointsPerHeartbeat":"1000","MaxSessionDuration":"14400","SessionTimeout":"1800000","AutoDetectScreens":"true","ClientLogsUploadPolicy":"1","MetadataRecordingRatio":"1","ConfigReloadTime":"86400000"}</bucket_metadata>
+        <bucket_metadata_customer_override/>
+        <bucket_table_name>sp_portal</bucket_table_name>
+        <bucket_type>service_portal</bucket_type>
+        <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
+        <enabled>true</enabled>
+        <internal_name_for_index>x_1468042_lva.sp_portal.43ea594f837f9a10b1d19bc6feaad39f</internal_name_for_index>
+        <sys_class_name>sys_analytics_bucket</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-23 00:58:30</sys_created_on>
+        <sys_id>cf1cdd8f837f9a10b1d19bc6feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Vehicle Portal</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1468042_lva">9e23d7a083131a10b1d19bc6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">9e23d7a083131a10b1d19bc6feaad372</sys_scope>
+        <sys_update_name>sys_analytics_bucket_cf1cdd8f837f9a10b1d19bc6feaad3e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-23 00:58:30</sys_updated_on>
+    </sys_analytics_bucket>
+</record_update>

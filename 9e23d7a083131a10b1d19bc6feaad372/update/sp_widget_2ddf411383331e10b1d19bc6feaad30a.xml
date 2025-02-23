@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.field-widget {&#13;
+    text-align: center;&#13;
+    padding: 20px;&#13;
+    background-color: #f4f4f4;&#13;
+    border-radius: 8px;&#13;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);&#13;
+}&#13;
+h2 {&#13;
+    font-size: 1.5em;&#13;
+    margin-bottom: 10px;&#13;
+}&#13;
+p {&#13;
+    font-size: 2em;&#13;
+    color: red; /* Set the field value text color to red */&#13;
+    font-weight: bold; /* Optional: make it bold for emphasis */&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Display transit MPG</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+  // Retrieve the specific field value
+(function() {
+    // Replace 'your_table' and 'sys_id_of_record' with actual table and record sys_id
+    var record = new GlideRecord('x_1468042_lva_loaner_vehicle_catalog'); 
+    if (record.get('3e3c27a083931a10b1d19bc6feaad3d2')) {
+        data.fieldValue = record.getValue('mpg'); // Replace 'your_field_name' with the field
+    } else {
+        data.fieldValue = "Record not found.";
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-23 18:50:36</sys_created_on>
+        <sys_id>2ddf411383331e10b1d19bc6feaad30a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Display transit MPG</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1468042_lva">9e23d7a083131a10b1d19bc6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">9e23d7a083131a10b1d19bc6feaad372</sys_scope>
+        <sys_update_name>sp_widget_2ddf411383331e10b1d19bc6feaad30a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-23 19:01:00</sys_updated_on>
+        <template><![CDATA[<div class="field-widget">
+    <h2>2022 Ford Transit Van MPG:</h2>
+    <p>{{data.fieldValue}}</p>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2ddf411383331e10b1d19bc6feaad30a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-23 18:50:36</sys_created_on>
+        <sys_id>e771511383331e10b1d19bc6feaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-23 18:50:36</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
